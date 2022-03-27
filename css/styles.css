@@ -9,7 +9,7 @@
 }
 
 .fonte-canter{
-    font-family: 'Canter', sans-serif;
+    font-family: 'Canter';
 }
 
 /*NavBar*/
@@ -37,8 +37,12 @@
     padding: 8px;
     text-decoration: none;
     font-size: 26px;
-    color: black;
+    color: #23262B;
     align-self: center;
+}
+
+.itens:hover{
+    text-decoration: underline #E7EA4B;
 }
 
 /*Introducao*/
@@ -113,6 +117,45 @@
     width: 5%;
 }
 
+/*Sobre*/
+.sobre{
+    background-color: #B5B9C5;
+    margin-top: 10%;
+    display: flex;
+    padding-right: 3%;
+    justify-items: center;
+}
+
+.conteudo-sobre{
+    margin-left: 5%;
+    margin-top: 5%;
+    flex: 1;
+}
+
+.titulo-sobre{
+    font-size: 75px;
+}
+
+.titulo-cor{
+    color: #E6E67D;
+    font-weight: 500;
+}
+
+.texto-sobre{
+    font-size: 20px;
+    margin-top: 4%;
+    margin-right: 15%;
+}
+
+.sobre-esquerda{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10%;
+}
+
 /*RESPONSIVO*/
 
 /*NavBar*/
@@ -137,6 +180,7 @@
     .itens:hover{
         background-color: #e6e67d70;
         border-radius: 5px;
+        text-decoration: none;
     }
 
     .tamanho-foto{
@@ -159,7 +203,7 @@
   }
 
 /*Introdução*/
-@media(max-width: 800px){
+@media(max-width: 815px){
     .pain{
         text-align-last: center;
         margin-left: 0;
@@ -172,17 +216,46 @@
 
     .texto-introducao{
         align-self: center;
-        margin-left: 5%;
+        margin-left: 0 !important;
     }
 
     .botao-plano{
         align-self: center;
-        margin-left: 5%;
+        margin-left: 0 !important;
         width: 50%;
         margin-bottom: 5%;
     }
 
+    .down-mouse{
+        width: 100%;
+    }
+
     .tamanho-foto{
         width: 70%;
+    }
+
+    /*sobre*/
+    .sobre{
+        flex-direction: column-reverse;
+    }
+
+    .sobre-esquerda{
+        margin-top: 2%;
+    }
+
+    .texto-sobre{
+        margin: 5%;
+        margin-bottom: 0 !important;
+        text-align: justify;
+    }
+
+    .titulo-sobre{
+        text-align: center;
+    }
+
+    .conteudo-sobre{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
 }
