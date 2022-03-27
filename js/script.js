@@ -1,3 +1,5 @@
+//script para navbar responsiva
+
 function myFunction() {
     var x = document.getElementById("myNavbar");
     if (x.className === "navbar") {
