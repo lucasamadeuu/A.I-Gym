@@ -1,0 +1,117 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+/*Fontes*/
+.fonte-oswald{
+    font-family: 'Oswald', sans-serif;
+}
+
+.fonte-canter{
+    font-family: 'Canter', sans-serif;
+}
+
+/*NavBar*/
+.navbar{
+    margin: 3%;
+    padding-left: 3%;
+    padding-right: 5%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.navbar .icon {
+    display: none;
+}
+
+.navbar-itens{
+    display: flex;
+    flex-direction: row;
+    margin: auto 0;
+}
+
+.itens{
+    display: flex;
+    padding: 8px;
+    text-decoration: none;
+    font-size: 26px;
+    color: black;
+}
+
+/*Introducao*/
+.introducao{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
+}
+
+.descricao{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.introducao-fundo{
+    flex: 1;
+    align-self: center;
+}
+
+.pain{
+    margin-left: 15%;
+    font-size: 70px;
+    font-weight: 300;
+    margin-bottom: -3%;
+}
+
+.gain{
+    margin-left: 20%;
+    font-size: 70px;
+    font-weight: lighter;
+}
+
+.texto-introducao{
+    margin-left: 15%;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.tamanho-foto{
+    width: 90%;
+    float: right;
+}
+
+.botao-plano {
+    padding: 1.3em 3em;
+    font-size: 12px;
+    letter-spacing: 2.5px;
+    font-weight: bolder;
+    border: none;
+    border-radius: 45px;
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    outline: none;
+    width: 30%;
+    margin-left: 15%;
+    margin-top: 5%;
+    background-image: linear-gradient(#F5F944, #E7EA4B, #E8E82C);
+    color: #fff;
+   }
+
+.botao-plano:hover{
+    box-shadow: 0px 5px 10px rgb(244, 247, 115);
+}
+
+.down-mouse{
+    display: flex;
+    justify-content: center;
+}
+
+.down-mouse img{
+    width: 5%;
+}
+
+/*RESPONSIVO*/
+
+
