@@ -121,6 +121,7 @@
 .sobre{
     background-color: #B5B9C5;
     margin-top: 10%;
+    margin-bottom: 10%;
     display: flex;
     padding-right: 3%;
     justify-items: center;
@@ -155,6 +156,166 @@
     align-items: center;
     margin-top: 10%;
 }
+
+/*Planos*/
+.planos-titulo{
+    font-size: 40px;
+    font-weight: 400;
+    color: #23262B;
+    margin-bottom: 7%;
+}
+
+.planos{
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    flex: 1;
+    border-radius: 33px;
+    background-image: linear-gradient(#F5F944, #E7EA4B, #E8E82C);
+    box-shadow: 0px 5px 10px rgb(244, 247, 115);
+    margin: 3%;
+}
+
+.cardum{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    flex: 1;
+    box-shadow: 0px 5px 10px rgb(241, 241, 241);
+    border-radius: 33px;
+    margin: 5%;
+}
+
+.planos-valor{
+    font-size: 60px;
+    color:#23262B;
+    font-weight: 500;
+}
+
+.valor-cardum{
+    font-size: 60px;
+    background-image: linear-gradient(#F5F944, #E7EA4B, #E8E82C);
+    color: black;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 500;
+}
+
+.titulo-planos{
+    font-size: 20px;
+    font-weight: 500;
+    color: #23262B;
+    margin-top: 7%;
+    align-self: center;
+}
+
+.texto-planos{
+    font-size: 12px;
+    color: #23262B;
+    align-self: center;
+}
+
+.subtexto-planos{
+    font-size: 11px;
+    color: #23262B;
+    align-self: center;
+    margin-bottom: 5%;
+}
+
+.texto-planosdois{
+    font-size: 10px;
+    color: #23262B;
+    margin: auto;
+    font-weight: 500;
+}
+
+.texto-planosdoiss{
+    font-size: 10px;
+    color: #23262B;
+    margin: auto;
+    font-weight: 500;
+    padding-bottom: 10%;
+}
+
+.texto-planosum{
+    font-size: 12px;
+    background-image: linear-gradient(#F5F944, #E7EA4B, #E8E82C);
+    color: black;
+    align-self: center;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.incluso{
+    display: flex;
+    flex-direction: row;
+    margin-left: 4%;
+    margin-right: 8%;
+    padding-top: 1.5%;
+}
+
+.inclusodois{
+    display: flex;
+    flex-direction: row;
+    margin-left: 4%;
+    margin-right: 8%;
+    padding-top: 1.5%;
+    padding-bottom: 10%;
+}
+
+.botao-valor {
+    padding: 1.3em 3em;
+    font-size: 12px;
+    letter-spacing: 2.5px;
+    font-weight: bolder;
+    border: none;
+    border-radius: 45px;
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    outline: none;
+    align-self: center;
+    width: 70%;
+    background-color: #fff;
+    color: #E6E67D;
+    margin-bottom: 5%;   
+    margin-block-start: auto;
+   }
+
+.botao-valor:hover{
+    box-shadow: 0px 5px 10px rgb(243, 243, 224);
+}
+
+.botao-valordois {
+    padding: 1.3em 3em;
+    font-size: 12px;
+    letter-spacing: 2.5px;
+    font-weight: bolder;
+    border: none;
+    border-radius: 45px;
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    outline: none;
+    align-self: center;
+    width: 70%;
+    background-image: linear-gradient(#F5F944, #E7EA4B, #E8E82C);
+    color: #fff;
+    margin-top: 25%;
+    margin-bottom: 5%;
+    margin-block-start: auto;
+   }
+
+.botao-valordois:hover{
+    box-shadow: 0px 5px 10px rgb(244, 247, 115);
+}
+
 
 /*RESPONSIVO*/
 
@@ -257,5 +418,34 @@
         display: flex;
         flex-direction: column;
         align-items: center;
+    }
+
+    /*Planos*/
+    .planos{
+        flex-direction: column;
+    }
+
+    .card{
+        align-items: center;
+    }
+
+    .cardum{
+        align-items: center;
+    }
+
+    .subtexto-planos{
+        margin-bottom: 2%;
+    }
+
+    .botao-valor{
+        margin-top: 5% !important;
+    }
+
+    .botao-valordois{
+        margin-top: 5% !important;
+    }
+
+    .inclusodois{
+        padding-bottom: 0 !important;
     }
 }
