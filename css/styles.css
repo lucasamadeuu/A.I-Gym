@@ -409,7 +409,82 @@
 .texto-unidades{
     padding-left: 7%;
     padding-right: 3%;
+}
 
+/*Contato*/
+.footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 100px;
+    align-content: space-between;
+    background-image: url(../images/contato.svg);
+    background-color: #23262B;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 1.6;
+    padding-top: 5%;
+    padding-left: 5%;
+    padding-right: 2.5% !important;
+}
+
+.contato-navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.contato-titulo{
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+    justify-content: space-between;
+}
+
+.nome-contato{
+    color: #E7EA4B;
+    font-weight: 500 !important;
+}
+
+.desenvolvido{
+    font-weight: 400;
+    text-align: center;
+    color: #fff;
+    font-size: 18px;
+    margin-block-start: auto;
+}
+
+.icones-contato{
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+    justify-content: flex-end;
+    padding-bottom: 1%;
+}
+
+.icones{
+    width: 20px;
+    height: 20px;
+    margin-right: 0.5%;
+}
+
+.iconess{
+    height: 27px;
+    margin-right: 0.5%;
+}
+
+.itens-contato{
+    display: flex;
+    padding: 8px;
+    text-decoration: none;
+    font-size: 36px;
+    color: #fff;
+    align-self: center;
+    font-weight: 300;
+}
+
+.itens-contato:hover{
+    text-decoration: underline #E7EA4B;
 }
 
 /*RESPONSIVO*/
@@ -589,5 +664,46 @@
     .unidades{
         flex-direction: column;
     }
+
+    /*Contato*/
+    .contato-titulo{
+        flex-direction: column;
+    }
+
+    .contato-navbar{
+        flex-direction: column;
+    }
+
+    .contato-foto{
+        width: 6rem;
+        align-self: center;
+        margin-bottom: 5%;
+    }
+
+    .icones-contato{
+        justify-content: center;
+        padding-bottom: 2%;
+    }
+
+    .icones{
+        width: 26px;
+        height: 26px;
+        margin-right: 2.5%;
+    }
     
+    .iconess{
+        height: 32px;
+        margin-right: 2.5%;
+    }
+
+    .footer{
+        padding-right: 0 !important;
+        padding-left: 0 !important;
+        padding-top: 10%;
+        gap: 90px;
+        background-image: url(../images/contato-responsivo.svg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
 }
