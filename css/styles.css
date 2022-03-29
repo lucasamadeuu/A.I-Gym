@@ -9,7 +9,7 @@
 }
 
 .fonte-canter{
-    font-family: 'Canter';
+    font-family: 'Barlow Condensed', sans-serif;
 }
 
 /*NavBar*/
@@ -39,6 +39,7 @@
     font-size: 26px;
     color: #23262B;
     align-self: center;
+    font-weight: 300;
 }
 
 .itens:hover{
@@ -55,7 +56,7 @@
     flex: 1;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-end;
 }
 
 .introducao-fundo{
@@ -79,7 +80,7 @@
 .texto-introducao{
     margin-left: 15%;
     font-size: 24px;
-    font-weight: 500;
+    font-weight: 200;
 }
 
 .tamanho-foto{
@@ -113,6 +114,10 @@
     justify-content: center;
 }
 
+.mouse-responsivo{
+    display: none;
+}
+
 .down-mouse img{
     width: 5%;
 }
@@ -125,16 +130,22 @@
     display: flex;
     padding-right: 3%;
     justify-items: center;
+    padding-top: 6%;
+    padding-bottom: 6%;
+}
+
+.foto-sobre{
+    width: 23rem;
 }
 
 .conteudo-sobre{
     margin-left: 5%;
-    margin-top: 5%;
     flex: 1;
 }
 
 .titulo-sobre{
-    font-size: 75px;
+    font-size: 3rem;
+    font-weight: 500;
 }
 
 .titulo-cor{
@@ -146,6 +157,7 @@
     font-size: 20px;
     margin-top: 4%;
     margin-right: 15%;
+    font-weight: 300;
 }
 
 .sobre-esquerda{
@@ -154,7 +166,6 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-top: 10%;
 }
 
 /*Planos*/
@@ -230,7 +241,7 @@
 }
 
 .texto-planosdois{
-    font-size: 10px;
+    font-size: 12px;
     color: #23262B;
     margin: auto;
     font-weight: 500;
@@ -347,6 +358,19 @@
     .tamanho-foto{
         display: none;
     }
+
+    .foto-sobre{
+        width: 12rem;
+    }
+
+    .texto-planosdois{
+        font-size: 10px;
+    }
+
+    .introducao{
+        height: 70vh;
+    }
+    
 }
 
   @media screen and (max-width: 600px) {
@@ -366,18 +390,19 @@
 /*Introdução*/
 @media(max-width: 815px){
     .pain{
-        text-align-last: center;
+        text-align: center;
         margin-left: 0;
     }
     
     .gain{
-        text-align-last: center;
+        text-align: center;
         margin-left: 5%;
     }
 
     .texto-introducao{
         align-self: center;
         margin-left: 0 !important;
+        text-align: center;
     }
 
     .botao-plano{
@@ -387,8 +412,8 @@
         margin-bottom: 5%;
     }
 
-    .down-mouse{
-        width: 100%;
+    .down-mouse img{
+        width: 20%;
     }
 
     .tamanho-foto{
@@ -399,7 +424,7 @@
     .sobre{
         flex-direction: column-reverse;
     }
-
+  
     .sobre-esquerda{
         margin-top: 2%;
     }
