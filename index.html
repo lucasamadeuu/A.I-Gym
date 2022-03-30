@@ -44,7 +44,7 @@
                 <h1 class="gain"> NO GAIN </h1>
             </div>  
                 <p class="texto-introducao fonte-canter"> Conheça a academia mais tecnológica de <br> São Paulo </p>
-                <button class="botao-plano"> Ver planos </button>
+                <a class="botao-responsivo" href="#planos"> <button class="botao-plano"> Ver planos </button></a>
         </div>
 
         <div class="introducao-fundo">
@@ -60,11 +60,34 @@
     <!-- Criação do Conteúdo Principal -->
     <main>
 
+          <!-- Criação dos adicionais -->
+          <div class="adicionais">    
+            <div class="adicionais-espaco shadow">
+                <div class="foto-adicionais">
+                    <img src="./images/luta.svg" alt="">
+                </div>
+                <p class="fonte-canter texto-adicionais">AULAS DE ARTES MARCIAIS</p>
+                <p class="fonte-canter subtexto-adicionais">*PLANO PREMIUM</p>
+            </div>
+            <div class="adicionais-espaco shadow">
+                <div class="foto-adicionais">
+                    <img src="./images/whey.svg" alt="">
+                </div>
+                <p class="fonte-canter texto-adicionais">OS MELHORES NUTRICIONISTAS DO BRASIL!</p>
+            </div>
+            <div class="adicionais-espaco shadow">
+                <div class="foto-adicionais">
+                    <img src="./images/aparelho.svg" alt="">
+                </div>
+                <p class="fonte-canter texto-adicionais">APARELHOS COM TECNOLOGIA A.I</p>
+            </div>   
+        </div>
+
         <!-- Criação do Sobre -->
         <section id="sobre" class="sobre">
 
             <div class="sobre-esquerda">
-                <img class="foto-sobre" src="./images/foto-sobre.png" alt="">
+                <img class="foto-sobre" src="./images/sobre.png" alt="">
             </div>
 
             <div class="introducao-fundo conteudo-sobre">
@@ -93,6 +116,12 @@
                 <p class="titulo-planos">BASIC</p>
                 <p class="texto-planosum">R$ <span class="valor-cardum">100</span> /mês</p>
                 <p class="subtexto-planos">R$1200/ano</p>
+
+                
+                <div class="incluso">
+                    <img src="./images/incluso-amarelo.png" alt="">
+                    <p class="texto-planosdois">Nutricionista disponível para dúvidas gerais</p>
+                </div>
 
                 <div class="incluso">
                     <img src="./images/incluso-amarelo.png" alt="">
@@ -245,22 +274,22 @@
     </main>
 
     <!-- Criação da area de contato -->
-    <footer class="footer">
+    <footer id="contato" class="footer">
         <div class="contato-titulo">
             <img class="contato-foto" src="./images/logo-contato.svg" alt="">
             <p class="fonte-canter desenvolvido">DESENVOLVIDO POR <br> <span class="nome-contato">LUCAS AMADEU    </span></p>
         </div>
 
         <div class="contato-navbar">
-            <a class="itens-contato fonte-canter" href="#Home">HOME</a>
-            <a class="itens-contato fonte-canter" href="#Sobre">SOBRE</a>
-            <a class="itens-contato fonte-canter" href="#Planos">PLANOS</a>
+            <a class="itens-contato fonte-canter" href="#home">HOME</a>
+            <a class="itens-contato fonte-canter" href="#sobre">SOBRE</a>
+            <a class="itens-contato fonte-canter" href="#planos">PLANOS</a>
         </div>
 
         <div class="icones-contato">
             <a class="icones" target="_blank" href="https://www.linkedin.com/in/lucas-amadeuu/"><img class="icones" src="./images/linkedin.svg" alt=""></a>
             <a class="icones" target="_blank" href="https://github.com/lucasamadeuu"><img class="icones" src="./images/github.svg" alt=""></a>
-            <a class="icones" target="_blank" href="https://www.figma.com/file/hMScgiq0kmwbDr4zG7jnfz/A.I-GYM?node-id=0%3A1"> <img class="iconess" src="./images/figma.svg" alt=""></a>
+            <a class="iconess" target="_blank" href="https://www.figma.com/file/hMScgiq0kmwbDr4zG7jnfz/A.I-GYM?node-id=0%3A1"> <img class="iconess" src="./images/figma.svg" alt=""></a>
         </div>
 
     </footer>

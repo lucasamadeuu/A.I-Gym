@@ -3,9 +3,9 @@
     margin: 0;
 }
 
-/*html {
+html {
     scroll-behavior: smooth;
-} */ 
+} 
 
 /*Fontes*/
 .fonte-oswald{
@@ -72,18 +72,21 @@
     margin-left: 15%;
     font-size: 70px;
     font-weight: 300;
+    color: #23262B;
     margin-bottom: -3%;
 }
 
 .gain{
     margin-left: 20%;
     font-size: 70px;
+    color: #23262B;
     font-weight: lighter;
 }
 
 .texto-introducao{
     margin-left: 15%;
     font-size: 24px;
+    color: #23262B;
     font-weight: 200;
 }
 
@@ -129,7 +132,6 @@
 /*Sobre*/
 .sobre{
     background-color: #B5B9C5;
-    margin-top: 10%;
     margin-bottom: 10%;
     display: flex;
     padding-right: 3%;
@@ -139,7 +141,7 @@
 }
 
 .foto-sobre{
-    width: 23rem;
+    width: 33rem;
 }
 
 .conteudo-sobre{
@@ -149,6 +151,7 @@
 
 .titulo-sobre{
     font-size: 3rem;
+    color: #23262B;
     font-weight: 500;
 }
 
@@ -161,6 +164,7 @@
     font-size: 20px;
     margin-top: 4%;
     margin-right: 15%;
+    color: #23262B;
     font-weight: 300;
 }
 
@@ -332,6 +336,55 @@
     box-shadow: 0px 5px 10px rgb(244, 247, 115);
 }
 
+
+/*Adcionais*/
+.shadow{
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.158);
+    border-radius: 33px;
+    background-color: #B5B9C5;
+}
+
+.adicionais-espaco{
+    margin: 2.5%;
+}
+
+.texto-adicionais{
+    font-weight: 600;
+    text-align: center;
+    font-size: 18px;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 10%;
+    color: #23262B;
+}
+
+.subtexto-adicionais{
+    font-weight: 400;
+    text-align: center;
+    font-size: 13px;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 10%;
+    margin-top: -9%;
+    color: #23262B;
+}
+
+.foto-adicionais{
+    display: flex;
+    width: 264.53px;
+    justify-content: center;
+}
+
+.adicionais{
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+    justify-content: center;
+    margin-top: 10%;
+    background-color: #B5B9C5;
+    padding-top: 5%;
+}
+
 /*Frequência*/
 .frequencia{
     background-color: #B5B9C5;
@@ -419,6 +472,7 @@
     gap: 100px;
     align-content: space-between;
     background-image: url(../images/contato.svg);
+    border-radius: 20px 20px 0px 0px;
     background-color: #23262B;
     background-repeat: no-repeat;
     background-size: cover;
@@ -519,7 +573,7 @@
     }
 
     .foto-sobre{
-        width: 12rem;
+        width: 15rem;
     }
 
     .texto-planosdois{
@@ -580,6 +634,12 @@
         margin-bottom: 5%;
     }
 
+    .botao-responsivo{
+        display: flex;
+        justify-content: center;
+        text-decoration: none;
+    }
+
     .down-mouse img{
         width: 10%;
     }
@@ -620,10 +680,12 @@
 
     .card{
         align-items: center;
+        margin: 10%;
     }
 
     .cardum{
         align-items: center;
+        margin: 10%;
     }
 
     .subtexto-planos{
@@ -640,6 +702,13 @@
 
     .inclusodois{
         padding-bottom: 0 !important;
+    }
+
+    /*Adicionais*/
+    .adicionais{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
 
     /*Frequencia*/
@@ -693,14 +762,14 @@
     
     .iconess{
         height: 32px;
-        margin-right: 2.5%;
     }
 
     .footer{
         padding-right: 0 !important;
         padding-left: 0 !important;
         padding-top: 10%;
-        gap: 90px;
+        gap: 60px;
+        border-radius: 20px 20px 0px 0px;
         background-image: url(../images/contato-responsivo.svg);
         background-repeat: no-repeat;
         background-size: cover;
