@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@100;200;300;400;500;600;700;800;900&family=Oswald:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/4baab2fa23.js" crossorigin="anonymous"></script>
+    <title>I.A Gym</title>
+</head>
+
+<body>
+
+    <!-- Criação da Navbar -->
+    <header class="navbar" id="myNavbar">
+
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+        </a>
+
+        <img src="./images/logo.svg" alt="">
+
+        <div class="navbar-itens">
+            <a href="#" class="itens fonte-canter">  </a>
+            <a href="#sobre" class="itens fonte-canter"> SOBRE </a>
+            <a href="#planos" class="itens fonte-canter"> PLANOS </a>
+            <a href="#unidades" class="itens fonte-canter"> UNIDADES </a>
+            <a href="#contato" class="itens fonte-canter"> CONTATO </a>
+        </div>
+
+        
+    </header>
+
+    <!-- Criação da introdução -->
+    <section id="home" class="introducao">
+
+        <div class="descricao">
+            <div class="fonte-oswald">
+                <h1 class="pain"> NO PAIN </h1>
+                <h1 class="gain"> NO GAIN </h1>
+            </div>  
+                <p class="texto-introducao fonte-canter"> Conheça a academia mais tecnológica de <br> São Paulo </p>
+                <a class="botao-responsivo" href="#planos"> <button class="botao-plano"> Ver planos </button></a>
+        </div>
+
+        <div class="introducao-fundo">
+            <img class="tamanho-foto" src="./images/foto-introducao.png" alt="">
+        </div>
+
+    </section>
+
+    <div id="mouse">
+        <img src="./images/down-mouse.png" alt="">
+    </div>
+
+    <!-- Criação do Conteúdo Principal -->
+    <main>
+
+          <!-- Criação dos adicionais -->
+          <div class="adicionais">    
+            <div class="adicionais-espaco shadow">
+                <div class="foto-adicionais">
+                    <img src="./images/luta.svg" alt="">
+                </div>
+                <p class="fonte-canter texto-adicionais">AULAS DE ARTES MARCIAIS</p>
+                <p class="fonte-canter subtexto-adicionais">*PLANO PREMIUM</p>
+            </div>
+            <div class="adicionais-espaco shadow">
+                <div class="foto-adicionais">
+                    <img src="./images/whey.svg" alt="">
+                </div>
+                <p class="fonte-canter texto-adicionais">OS MELHORES NUTRICIONISTAS DO BRASIL!</p>
+            </div>
+            <div class="adicionais-espaco shadow">
+                <div class="foto-adicionais">
+                    <img src="./images/aparelho.svg" alt="">
+                </div>
+                <p class="fonte-canter texto-adicionais">APARELHOS COM TECNOLOGIA A.I</p>
+            </div>   
+        </div>
+
+        <!-- Criação do Sobre -->
+        <section id="sobre" class="sobre">
+
+            <div class="sobre-esquerda">
+                <img class="foto-sobre" src="./images/sobre.png" alt="">
+            </div>
+
+            <div class="introducao-fundo conteudo-sobre">
+                <p class="fonte-canter titulo-sobre">A ACADEMIA MAIS <br> <span class="titulo-cor">INOVADORA</span> DO MOMENTO!</p>
+
+                <p class="texto-sobre fonte-oswald">É novo na academia e não sabe como usar os aparelhos? Nós da A.I Gym temos 
+                    a solução para você. Nós desenvolvemos um software que fica alocado em cada aparelho por nossa 
+                    academia. Esse software serve para te auxiliar na excecução dos movimentos.
+                </p>
+            </div>
+
+        </section>
+
+        <!-- Criação dos Planos -->
+        <div id="planos" class="down-mouse">
+            <img src="./images/planos-icone.png" alt="">
+        </div>
+
+        <div class="down-mouse">
+            <p class="fonte-oswald planos-titulo">PLANOS</p>
+        </div>
+
+        <section class="planos">
+
+            <div class="cardum fonte-oswald">
+                <p class="titulo-planos">BASIC</p>
+                <p class="texto-planosum">R$ <span class="valor-cardum">100</span> /mês</p>
+                <p class="subtexto-planos">R$1200/ano</p>
+
+                
+                <div class="incluso">
+                    <img src="./images/incluso-amarelo.png" alt="">
+                    <p class="texto-planosdois">Nutricionista disponível para dúvidas gerais</p>
+                </div>
+
+                <div class="incluso">
+                    <img src="./images/incluso-amarelo.png" alt="">
+                    <p class="texto-planosdois">Acesso à musculação </p>
+                </div>
+
+                <div class="incluso">
+                    <img src="./images/incluso-amarelo.png" alt="">
+                    <p class="texto-planosdois">Acesso livre entre academias A.I gym nos fins de semana</p>
+                </div>
+
+                <button class="botao-valordois"> ASSINAR </button>
+            </div>
+
+            <div class="card fonte-oswald">
+
+                <p class="titulo-planos">STANDARD</p>
+                <p class="texto-planos">R$ <span class="planos-valor">130</span> /mês</p>
+                <p class="subtexto-planos">R$1560/ano</p>
+                    <div class="incluso">
+                        <img src="./images/incluso-branco.png" alt="">
+                        <p class="texto-planosdois">Periodização de treino completa</p>
+                    </div>
+
+                    <div class="incluso">
+                        <img src="./images/incluso-branco.png" alt="">
+                        <p class="texto-planosdois">Nutricionista disponível para dúvidas gerais</p>
+                    </div>
+
+                    <div class="incluso">
+                        <img src="./images/incluso-branco.png" alt="">
+                        <p class="texto-planosdois">Fisioterapeuta disponível para dúvidas gerais</p>
+                    </div>
+
+                    <div class="incluso">
+                        <img src="./images/incluso-branco.png" alt="">
+                        <p class="texto-planosdois">Acesso à musculação </p>
+                    </div>
+
+                    <div class="incluso">
+                        <img src="./images/incluso-branco.png" alt="">
+                        <p class="texto-planosdois">Acesso livre entre academias A.I gym nos fins de semana</p>
+                    </div>
+
+                    <button class="botao-valor"> ASSINAR </button>
+
+            </div>
+
+            <div class="cardum fonte-oswald">
+                <p class="titulo-planos">PREMIUM</p>
+                <p class="texto-planosum">R$ <span class="valor-cardum">200</span> /mês</p>
+                <p class="subtexto-planos">R$2400/ano</p>
+                <div class="incluso">
+                    <img src="./images/incluso-amarelo.png" alt="">
+                    <p class="texto-planosdois">Cadeira de Massagem</p>
+                </div>
+
+                <div class="incluso">
+                    <img src="./images/incluso-amarelo.png" alt="">
+                    <p class="texto-planosdois">Mimos na bomboniere</p>
+                </div>
+
+                <div class="incluso">
+                    <img src="./images/incluso-amarelo.png" alt="">
+                    <p class="texto-planosdois">Acesso as aulas de artes marciais</p>
+                </div>
+
+                <div class="incluso">
+                    <img src="./images/incluso-amarelo.png" alt="">
+                    <p class="texto-planosdois">Periodização de treino completa</p>
+                </div>
+
+                <div class="incluso">
+                    <img src="./images/incluso-amarelo.png" alt="">
+                    <p class="texto-planosdois">Nutricionista disponível para dúvidas gerais</p>
+                </div>
+
+                <div class="incluso">
+                    <img src="./images/incluso-amarelo.png" alt="">
+                    <p class="texto-planosdois">Fisioterapeuta disponível para dúvidas gerais</p>
+                </div>
+
+                <div class="incluso">
+                    <img src="./images/incluso-amarelo.png" alt="">
+                    <p class="texto-planosdois">Acesso à musculação </p>
+                </div>
+
+                <div class="inclusodois">
+                    <img src="./images/incluso-amarelo.png" alt="">
+                    <p class="texto-planosdois">Acesso livre entre academias A.I gym nos fins de semana</p>
+                </div>
+
+                <button class="botao-valordois"> ASSINAR </button>
+            </div>
+
+        </section>
+
+        <!-- Criação do Gráfio de Frequência -->
+        <section class="frequencia">
+            <div class="down-mouse">
+                <img src="./images/frequenica-icone.png" alt="">
+            </div>
+
+            <div class="down-mouse">
+                <p class="fonte-oswald planos-titulo">Gráfico de Frequência</p>
+            </div>
+
+            <div class="grafico-centro">
+                <img class="grafico" src="./images/grafico.png" alt="">
+            </div>
+
+            <div class="grafico-centro">
+                <img class="grafico-responsivo" src="./images/grafico-responsivo.png" alt="">
+            </div>
+
+        </section>
+
+        <!-- Criação das unidades  -->
+            <div id="unidades" class="down-mouse">
+                <img src="./images/unidades-icone.png" alt="">
+            </div>
+    
+            <div class="down-mouse">
+                <p class="fonte-oswald planos-titulo">UNIDADES</p>
+            </div>
+
+            <section class="unidades">
+
+                <div class="unidades-margin">
+                    <img class="foto-esquerda" src="./images/paulista.png" alt="">
+                    <p class="titulo-unidades fonte-canter">Paulista</p>
+                    <p class="fonte-canter texto-unidades">Rua Afonso Ferreira, 175 - AV. Paulista, São Paulo</p>
+                </div>
+
+                <div class="unidades-margin">
+                    <img class="foto-meio" src="./images/vila-madalena.png" alt="">
+                    <p class="titulo-unidades fonte-canter">Vila Madalena</p>
+                    <p class="fonte-canter texto-unidades">Rua Isabel de Castela, 312 - Vila Madalena, São Paulo</p>
+                </div>
+
+                <div class="unidades-margin">
+                    <img class="foto-direita" src="./images/alphaville.png" alt="">
+                    <p class="titulo-unidades fonte-canter">Alphaville</p>
+                    <p class="fonte-canter texto-unidades">Praça Alphaville 1500 - Alphaville, São Paulo</p>
+                </div>
+    
+
+        </section>
+
+    </main>
+
+    <!-- Criação da area de contato -->
+    <footer id="contato" class="footer">
+        <div class="contato-titulo">
+            <img class="contato-foto" src="./images/logo-contato.svg" alt="">
+            <p class="fonte-canter desenvolvido">DESENVOLVIDO POR <br> <span class="nome-contato">LUCAS AMADEU    </span></p>
+        </div>
+
+        <div class="contato-navbar">
+            <a class="itens-contato fonte-canter" href="#home">HOME</a>
+            <a class="itens-contato fonte-canter" href="#sobre">SOBRE</a>
+            <a class="itens-contato fonte-canter" href="#planos">PLANOS</a>
+        </div>
+
+        <div class="icones-contato">
+            <a class="icones" target="_blank" href="https://www.linkedin.com/in/lucas-amadeuu/"><img class="icones" src="./images/linkedin.svg" alt=""></a>
+            <a class="icones" target="_blank" href="https://github.com/lucasamadeuu"><img class="icones" src="./images/github.svg" alt=""></a>
+            <a class="iconess" target="_blank" href="https://www.figma.com/file/hMScgiq0kmwbDr4zG7jnfz/A.I-GYM?node-id=0%3A1"> <img class="iconess" src="./images/figma.svg" alt=""></a>
+        </div>
+
+    </footer>
+
+</body>
+
+<script src="./js/script.js"></script> 
+</html>
