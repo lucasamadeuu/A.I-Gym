@@ -356,6 +356,8 @@ html {
     padding-right: 10%;
     padding-bottom: 10%;
     color: #23262B;
+    display: flex;
+    justify-content: center;
 }
 
 .subtexto-adicionais{
