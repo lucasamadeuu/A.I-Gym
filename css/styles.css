@@ -52,20 +52,26 @@ html {
 
 /*Introducao*/
 .introducao{
-    display: grid;
-    grid-template-columns: repeat(auto-fit,minmax(400px,1fr));
+    display: flex;
+    height: 100vh;
+    align-items: flex-start;
+    margin-top: 10%;
+    position: relative;
 }
+
 
 .descricao{
     flex: 1;
     display: flex;
     flex-direction: column;
-    justify-content: flex-end;
+    justify-content: center;
 }
 
 .introducao-fundo{
     flex: 1;
-    align-self: center;
+    display: flex;
+    justify-content: flex-end;
+    margin-top: -5%;
 }
 
 .pain{
@@ -92,7 +98,6 @@ html {
 
 .tamanho-foto{
     width: 90%;
-    float: right;
 }
 
 .botao-plano {
@@ -117,6 +122,15 @@ html {
 }
 
 .down-mouse{
+    display: flex;
+    justify-content: center;
+}
+
+#mouse{
+    position: absolute;
+    bottom: 3%;
+    z-index: 99;
+    width: 100%;
     display: flex;
     justify-content: center;
 }
@@ -382,7 +396,6 @@ html {
     flex-direction: row;
     flex: 1;
     justify-content: center;
-    margin-top: 10%;
     background-color: #B5B9C5;
     padding-top: 5%;
 }
@@ -583,7 +596,9 @@ html {
     }
 
     .introducao{
-        height: 70vh;
+        flex-direction: column;
+        display: flex;
+        align-items: center;
     }
 
     .down-mouse img{
@@ -627,13 +642,14 @@ html {
         align-self: center;
         margin-left: 0 !important;
         text-align: center;
+        font-size: 18px;
     }
 
     .botao-plano{
         align-self: center;
         margin-left: 0 !important;
-        width: 50%;
         margin-bottom: 5%;
+        width: 100% !important;
     }
 
     .botao-responsivo{
@@ -647,7 +663,7 @@ html {
     }
 
     .tamanho-foto{
-        width: 70%;
+        padding-top: 10%;
     }
 
     /*sobre*/
@@ -779,4 +795,10 @@ html {
         background-size: cover;
     }
 
+}
+
+@media(max-width:1050px){
+    .botao-plano{
+        width: 40%;
+    }
 }
