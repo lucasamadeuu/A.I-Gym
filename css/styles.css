@@ -161,6 +161,9 @@ html {
 .conteudo-sobre{
     margin-left: 5%;
     flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .titulo-sobre{
@@ -400,7 +403,7 @@ html {
     padding-top: 5%;
 }
 
-/*Frequência*/
+/*FrequÃªncia*/
 .frequencia{
     background-color: #B5B9C5;
     margin-top: 10%;
@@ -626,7 +629,7 @@ html {
     }
   }
 
-/*Introdução*/
+/*IntroduÃ§Ã£o*/
 @media(max-width: 815px){
     .pain{
         text-align: center;
