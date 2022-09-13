@@ -8,13 +8,13 @@ export default function navBar() {
     const [isOpen, setOpen] = useState(false)
 
     const items = [
-        { title: 'Home', path: '/' },
-        { title: 'Sobre', path: '/' },
-        { title: 'Contato', path: '#plans' },
+        { title: 'Home', path: '#home' },
+        { title: 'Sobre', path: '#about' },
+        { title: 'Contato', path: '#contact' },
     ]
 
     return (
-        <HeaderContainer>
+        <HeaderContainer id="home">
             <div>
                 <p> <span>A.I</span> Gym </p>
                 <nav>
@@ -36,7 +36,7 @@ export default function navBar() {
                 <MobileItem>
                     {items.map((item, index) => {
                         return (
-                            <HeaderItemMobile key={index} title={item.title} path={item.path} />
+                            <HeaderItemMobile key={index} title={item.title} path={item.path} close={setOpen}/>
                         )
                     })}
                 </MobileItem>

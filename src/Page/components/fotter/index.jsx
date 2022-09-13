@@ -6,19 +6,19 @@ import Linkedin from '../../../assets/linkedin.svg'
 export default function Fotter() {
 
     const links = [
-        { title: 'Home', path: '/' },
-        { title: 'Sobre', path: '/' },
-        { title: 'Planos', path: '/' },
+        { title: 'Home', path: '#home' },
+        { title: 'Sobre', path: '#about' },
+        { title: 'Planos', path: '#plans' },
     ]
 
     const media = [
-        { image: Figma, path: '/' },
-        { image: Github, path: '/' },
-        { image: Linkedin, path: '/' },
+        { image: Figma, path: 'https://www.figma.com/file/hMScgiq0kmwbDr4zG7jnfz/A.I-GYM?node-id=0%3A1' },
+        { image: Github, path: 'https://github.com/lucasamadeuu' },
+        { image: Linkedin, path: 'https://www.linkedin.com/in/lucas-amadeuu/' },
     ]
 
     return (
-        <FotterContainer>
+        <FotterContainer id="contact">
             <FotterContainerPadding>
                 <FotterContainerLogo>
                     <p> <span>A.I</span> Gym </p>

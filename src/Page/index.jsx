@@ -88,7 +88,7 @@ export default function LandingPage() {
                 </TitlePlan>
                 <Graphic />
             </MainContent>
-            <Fotter/>
+            <Fotter />
         </>
     )
 }

@@ -21,6 +21,7 @@ export const ContainerCard = styled.div`
 
 export const TitlePlan = styled.div`
   display: flex;
+  padding-top: 3rem;
   flex-direction: column;
   gap: 3rem;
   > h1 {

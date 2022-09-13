@@ -5,6 +5,7 @@ export const ContainerAbout = styled.div`
   justify-content: center;
   flex-direction: column;
   gap: 4rem;
+  padding-top: 4rem;
 
   > h1 {
     font-size: ${({ theme }) => theme.textSizes["title-lm"]};

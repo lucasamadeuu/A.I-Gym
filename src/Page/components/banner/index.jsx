@@ -13,7 +13,7 @@ export default function Banner() {
                 <BannerText>
                     <p>Conheça a academia mais tecnológica de São Paulo.</p>
                 </BannerText>
-                <Button path='/'>ver planos</Button>
+                <Button path='#plans'>ver planos</Button>
             </BannerTextContainer>
             <BannerImage>
                 <img src={BannerPhoto} alt="banner" />

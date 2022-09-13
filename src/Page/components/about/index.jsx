@@ -3,7 +3,7 @@ import Gym from '../../../assets/gym.png'
 
 export default function About() {
     return (
-        <ContainerAbout>
+        <ContainerAbout id="about">
             <h1>A academia mais <span> inovadora </span> do momento<span>.</span></h1>
             <ContainerAboutInfo>
                 <img src={Gym} alt="gym" />
