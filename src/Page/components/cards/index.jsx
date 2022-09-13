@@ -3,7 +3,7 @@ import { StructureCard } from "./style";
 export default function Cards({ text, image }) {
     return (
         <StructureCard>
-            <img src={image} alt="" />
+            {image}
             <p> {text} </p>
         </StructureCard>
     )

@@ -5,6 +5,8 @@ export const BannerContainer = styled.div`
   justify-content: space-between;
   padding: 2rem 0;
   @media (max-width: 768px) {
+    padding: 4.5rem 0;
+    justify-content: center;
   }
 `;
 
@@ -31,7 +33,7 @@ export const BannerTitle = styled.div`
 `;
 
 export const BannerText = styled.div`
-    width: 80%;
+  width: 80%;
   p {
     font-size: ${({ theme }) => theme.textSizes["text-s"]};
     color: ${({ theme }) => theme.colors["text"]};

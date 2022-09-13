@@ -1,28 +1,11 @@
 import styled from "styled-components";
 
-export const MainContent = styled.div`
+export const GraphicContainer = styled.div`
   display: flex;
-  flex-direction: column;
-  padding: 2.5rem 7%;
-  gap: 250px;
-
-  @media(max-width: 768px) {
-    gap: 230px;
-  }
-`;
-
-export const ContainerCard = styled.div`
-  display: flex;
-  gap: 4rem;
-  align-items: center;
   justify-content: center;
-  flex-wrap: wrap;
-`;
-
-export const TitlePlan = styled.div`
-  display: flex;
   flex-direction: column;
   gap: 3rem;
+
   > h1 {
     font-size: ${({ theme }) => theme.textSizes["title-lm"]};
     color: ${({ theme }) => theme.colors["text-darker"]};
@@ -34,11 +17,21 @@ export const TitlePlan = styled.div`
     font-weight: bold;
   }
 
+  img {
+    width: 70%;
+  }
+
   @media (max-width: 768px) {
     > h1 {
-        font-size: ${({ theme }) => theme.textSizes["title-s"]};
+      font-size: ${({ theme }) => theme.textSizes["title-s"]};
+    }
+    img {
+      width: 100%;
     }
   }
 `;
 
-
+export const FrequencyContainer = styled.div`
+  display: flex;
+  justify-content: center;
+`;
