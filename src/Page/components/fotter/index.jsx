@@ -33,9 +33,6 @@ export default function Fotter() {
                 </FotterContainerContent>
             </FotterContainerPadding>
             <FotterContainerAuthor>
-                <FotterContainerAuthorName>
-                    <p>by <span>Lucas Amadeu</span></p>
-                </FotterContainerAuthorName>
                 <FotterContainerMedias>
                     {media.map((social, index) => {
                         return (
@@ -45,6 +42,9 @@ export default function Fotter() {
                         )
                     })}
                 </FotterContainerMedias>
+                <FotterContainerAuthorName>
+                    <p>by <span>Lucas Amadeu</span></p>
+                </FotterContainerAuthorName>
             </FotterContainerAuthor>
         </FotterContainer>
     )

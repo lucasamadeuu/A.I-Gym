@@ -10,7 +10,7 @@ export default function navBar() {
     const items = [
         { title: 'Home', path: '/' },
         { title: 'Sobre', path: '/' },
-        { title: 'Contato', path: '/' },
+        { title: 'Contato', path: '#plans' },
     ]
 
     return (

@@ -7,9 +7,15 @@ export const FotterContainer = styled.div`
 `;
 
 export const FotterContainerPadding = styled.div`
-    padding: 3rem 15rem 0rem 5rem;
-    display: flex;
-    justify-content: space-between;
+  padding: 3rem 15rem 0rem 5rem;
+  display: flex;
+  justify-content: space-between;
+  @media (max-width: 768px) {
+    flex-direction: column;
+    padding: 2rem 4rem;
+    align-items: center;
+    gap: 1rem;
+  }
 `;
 
 export const FotterContainerLogo = styled.div`
@@ -47,6 +53,12 @@ export const FotterContainerContent = styled.div`
       color: ${({ theme }) => theme.colors["main"]};
     }
   }
+  @media (max-width: 768px) {
+    padding-top: 0.6rem;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+  }
 `;
 
 export const FotterContainerAuthor = styled.div`
@@ -62,12 +74,23 @@ export const FotterContainerAuthor = styled.div`
   span {
     color: ${({ theme }) => theme.colors["main"]};
   }
+
+  @media (max-width: 768px) {
+    padding: 2rem 0.5rem 0;
+  }
 `;
 
 export const FotterContainerAuthorName = styled.div`
   position: absolute;
-  bottom: .5rem;
+  bottom: 0.5rem;
   left: 45%;
+
+  @media (max-width: 768px) {
+    position: relative;
+    left: 0;
+    display: flex;
+    justify-content: center;
+  }
 `;
 
 export const FotterContainerMedias = styled.div`
@@ -81,5 +104,10 @@ export const FotterContainerMedias = styled.div`
 
   img {
     width: 80%;
+  }
+
+  @media (max-width: 768px) {
+    justify-content: center;
+    padding-bottom: 1rem;
   }
 `;

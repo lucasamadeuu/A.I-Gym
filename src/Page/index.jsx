@@ -58,7 +58,7 @@ export default function LandingPage() {
                     })}
                 </ContainerCard>
                 <About />
-                <TitlePlan>
+                <TitlePlan id="plans">
                     <h1>Planos<span>.</span></h1>
                     <ContainerCard>
                         {plans.map((plan, index) => {
@@ -88,7 +88,7 @@ export default function LandingPage() {
                 </TitlePlan>
                 <Graphic />
             </MainContent>
-            <Fotter />
+            <Fotter/>
         </>
     )
 }
