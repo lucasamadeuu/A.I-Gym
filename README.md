@@ -1,13 +1,13 @@
 # A.I Gym
 
-<img src="" alt="Logo" width="80" height="80">
+<h5> Seja bem-vindo a academia do momento! Na I.A Gym, você terá toda a infraestrutura e suporte necessário 
+<br> para o seu desenvolvimento. 
+</h5>
 
-### Pré-requisitos
+<br>
 
-* npm
-  ```sh
-  npm install npm@latest -g
-  ```
+<img src="src/assets/preview.png" alt="Logo" width="70%">
+
 ### Instalação
 
 1. Clonar o repositório
@@ -17,5 +17,10 @@
 2. Instalar pacotes NPM
    ```sh
    npm install
+   ```
+   
+3. Iniciar o projeto
+   ```sh
+   npm run dev
    ```
 
