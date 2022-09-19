@@ -1,6 +1,6 @@
 # A.I Gym
 
-<h5> Seja bem-vindo a academia do momento! Na I.A Gym, você terá toda a infraestrutura e suporte necessário 
+<h5> Seja bem-vindo a academia do momento! Na A.I Gym, você terá toda a infraestrutura e suporte necessário 
 <br> para o seu desenvolvimento. 
 </h5>
 
