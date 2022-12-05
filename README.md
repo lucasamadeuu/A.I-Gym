@@ -7,6 +7,8 @@
 <br>
 
 <img src="src/assets/preview.png" alt="Logo" width="70%">
+<h5> Link para o projeto: https://ai-gym.netlify.app/
+</h5>
 
 ### Instalação
 
